@@ -1,0 +1,10 @@
+.home {
+  margin-top: 80px;
+}
+
+.home__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=home.css.map */

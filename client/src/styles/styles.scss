@@ -1,0 +1,31 @@
+@import 'variables/variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: $dark;
+  font-family: $regularFont;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Components
+@import 'componentStyle/navbar/navbar.scss';
+@import 'componentStyle/header/header.scss';
+@import 'componentStyle/sidebar/sidebar.scss';
+@import 'componentStyle/posts/posts.scss';
+@import 'componentStyle/post/post.scss';
+@import 'componentStyle/singlePost/singlePost.scss';
+//Pages
+@import 'pageStyle/home/home.scss';
+@import 'pageStyle/single/single.scss';
+@import 'pageStyle/write/write.scss';
+@import 'pageStyle/settings/settings.scss';
+@import 'pageStyle/login/login.scss';
+@import 'pageStyle/register/register.scss';
